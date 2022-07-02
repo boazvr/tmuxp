@@ -42,7 +42,7 @@ Find the package for your distro on repology: <https://repology.org/project/tmux
 if there are problems running tmuxp (no session id error) need to update the locale (language) setting
 you can do so by creatkin the file ~./bash_locale and paste
 
-xport LANG=en_US.utf8                                         
+export LANG=en_US.utf8                                         
 export LANGUAGE=en_US.utf8                                     
 export LC_CTYPE="en_US.utf8"                                   
 export LC_NUMERIC="en_US.utf8"                                 
