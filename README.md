@@ -38,6 +38,32 @@ $ sudo apt install tmuxp
 
 Find the package for your distro on repology: <https://repology.org/project/tmuxp/versions>
 
+
+if there are problems running tmuxp (no session id error) need to update the locale (language) setting
+you can do so by creatkin the file ~./bash_locale and paste
+
+xport LANG=en_US.utf8                                         
+export LANGUAGE=en_US.utf8                                     
+export LC_CTYPE="en_US.utf8"                                   
+export LC_NUMERIC="en_US.utf8"                                 
+export LC_TIME="en_US.utf8"                                    
+export LC_COLLATE="en_US.utf8"                                 
+export LC_MONETARY="en_US.utf8"
+export LC_MESSAGES="en_US.utf8"
+export LC_PAPER="en_US.utf8"                                   
+export LC_NAME="en_US.utf8"                                    
+export LC_ADDRESS="en_US.utf8"                                 
+export LC_TELEPHONE="en_US.utf8"
+export LC_MEASUREMENT="en_US.utf8"
+export LC_IDENTIFICATION="en_US.utf8"
+export LC_ALL=en_US.utf8
+
+then source or insert source into ~/.bachrc
+
+
+
+
+
 Developmental releases:
 
 - [pip](https://pip.pypa.io/en/stable/):
